@@ -1,10 +1,12 @@
 const express = require('express');
 const path = require('path');
+const router = require('express').Router();
+const createNewNote = require('./lib/notes');
 
 const PORT = process.env.PORT || 3001;
 const app = express();
 // const apiRoutes = require('./routes/apiRoutes');
-const htmlRoutes = require('./routes/htmlRoutes');
+const htmlRoutes = require('./routes/apiRoutes/htmlRoutes/htmlRoutes');
 
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
