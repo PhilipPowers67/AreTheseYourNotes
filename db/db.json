@@ -1,8 +1,23 @@
 {
-   "notes": [
+  "notes": [
     {
-        "title":"Test Title",
-        "text":"Test text"
+      "title": "Test Title",
+      "text": "Test text"
+    },
+    {
+      "title": "Chores",
+      "text": "Take out Trash",
+      "id": "1"
+    },
+    {
+      "title": "Homework",
+      "text": "Finish Lesson 13",
+      "id": "2"
+    },
+    {
+      "title": "Exercise",
+      "text": "Take Dog For Walk",
+      "id": "3"
     }
   ]
 }
